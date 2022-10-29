@@ -7,7 +7,7 @@
 # Include the common OEM chipset BoardConfig.
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/lemonades
+DEVICE_PATH := device/oneplus/kebab
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -28,4 +28,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/lemonades/BoardConfigVendor.mk
+-include vendor/oneplus/kebab/BoardConfigVendor.mk

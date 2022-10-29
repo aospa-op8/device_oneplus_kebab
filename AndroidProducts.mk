@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aospa_lemonades.mk
+    $(LOCAL_DIR)/aospa_kebab.mk
 
 COMMON_LUNCH_CHOICES := \
-    aospa_lemonades-user \
-    aospa_lemonades-userdebug \
-    aospa_lemonades-eng
+    aospa_kebab-user \
+    aospa_kebab-userdebug \
+    aospa_kebab-eng
